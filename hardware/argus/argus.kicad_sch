@@ -1387,7 +1387,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 73.66) (xy 100.33 73.66)
+			(xy 97.79 69.85) (xy 100.33 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1447,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 76.2) (xy 100.33 78.74)
+			(xy 100.33 72.39) (xy 100.33 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1467,7 +1467,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 76.2) (xy 100.33 76.2)
+			(xy 97.79 72.39) (xy 100.33 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1487,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 71.12) (xy 100.33 73.66)
+			(xy 100.33 67.31) (xy 100.33 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1497,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 90.17) (xy 104.14 90.17)
+			(xy 97.79 86.36) (xy 129.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 87.63) (xy 104.14 87.63)
+			(xy 97.79 83.82) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1626,7 @@
 		(uuid "fae36da7-519b-4233-842d-3c111709ff45")
 	)
 	(label "D+"
-		(at 104.14 87.63 180)
+		(at 104.14 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1638,7 +1638,7 @@
 		(uuid "2f143afa-6eca-40bc-ad37-d81c9bd1e9f8")
 	)
 	(label "D-"
-		(at 104.14 90.17 180)
+		(at 104.14 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1943,7 +1943,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 92.71 73.66 0)
+		(at 92.71 69.85 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1954,7 +1954,7 @@
 		(dnp no)
 		(uuid "143260a6-3713-4593-855e-c000ace28c30")
 		(property "Reference" "J1"
-			(at 93.98 70.612 0)
+			(at 93.98 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 90.17 76.1999 0)
+			(at 90.17 72.3899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +1977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 73.66 0)
+			(at 92.71 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,7 +1988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 73.66 0)
+			(at 92.71 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1999,7 +1999,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 73.66 0)
+			(at 92.71 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2026,7 +2026,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 92.71 87.63 0)
+		(at 92.71 83.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2037,7 +2037,7 @@
 		(dnp no)
 		(uuid "280b2d11-12fd-41bc-8b6b-29fd4e25380d")
 		(property "Reference" "J2"
-			(at 93.98 84.582 0)
+			(at 93.98 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2048,7 +2048,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 90.17 90.1699 0)
+			(at 90.17 86.3599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2060,7 +2060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 87.63 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 87.63 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2082,7 +2082,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 87.63 0)
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,7 +2270,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 78.74 0)
+		(at 100.33 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2280,7 +2280,7 @@
 		(dnp no)
 		(uuid "4bddce07-aef9-431e-beb8-712618357a3d")
 		(property "Reference" "#PWR04"
-			(at 100.33 85.09 0)
+			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,7 +2291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 82.55 0)
+			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2302,7 +2302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 78.74 0)
+			(at 100.33 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2313,7 +2313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 78.74 0)
+			(at 100.33 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,7 +2324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 78.74 0)
+			(at 100.33 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,7 +2585,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 100.33 71.12 0)
+		(at 100.33 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2595,7 +2595,7 @@
 		(dnp no)
 		(uuid "f3e87cf1-af37-4f34-aa7e-4269863960db")
 		(property "Reference" "#PWR05"
-			(at 100.33 74.93 0)
+			(at 100.33 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +2606,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 100.076 67.31 0)
+			(at 100.076 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2616,7 +2616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 71.12 0)
+			(at 100.33 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,7 +2627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 71.12 0)
+			(at 100.33 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2638,7 +2638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 71.12 0)
+			(at 100.33 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
