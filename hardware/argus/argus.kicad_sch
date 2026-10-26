@@ -2507,7 +2507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2668,7 +2668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2827,7 +2827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2910,7 +2910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
 			(at 118.11 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2992,7 +2992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 135.89 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3071,7 +3071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3544,7 +3544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
 			(at 171.45 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3623,7 +3623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 204.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3694,7 +3694,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "25MHZ"
+		(property "Value" "24MHZ"
 			(at 179.07 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3705,7 +3705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 175.26 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3716,7 +3716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/ABRACON/ASE2-24.000MHZ-L-C-T?qs=s46Hw6dZPL7XHJx%252Bx4DWOw%3D%3D"
 			(at 175.26 111.76 0)
 			(hide yes)
 			(show_name no)
