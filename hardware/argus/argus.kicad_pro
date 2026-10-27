@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -208,7 +214,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -235,7 +243,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -524,7 +537,16 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
+    "net_colors": {
+      "+5V": "rgb(255, 0, 0)",
+      "/D+": "rgb(0, 255, 0)",
+      "/D-": "rgb(0, 255, 0)",
+      "/NRST": "rgb(255, 255, 0)",
+      "/SWIO": "rgb(0, 255, 255)",
+      "GND": "rgb(72, 72, 72)",
+      "Net-(U1-PA1)": "rgb(255, 0, 255)",
+      "Net-(U1-PA2)": "rgb(255, 0, 255)"
+    },
     "netclass_assignments": {},
     "netclass_patterns": []
   },
@@ -676,7 +698,7 @@
         "uuid": "88ede172-e62b-4a6b-80f1-e187fed87fb7"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-8,C1-4,J1-3,R1,SW1,U1,Y1",
+    "used_designators": "#FLG1-2,#PWR1-8,C1-4,J1-7,R1,SW1,U1,Y1",
     "variants": []
   },
   "sheets": [

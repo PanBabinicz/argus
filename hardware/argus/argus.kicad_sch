@@ -134,164 +134,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1847,6 +1689,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 100.33) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076d6eb8-45de-492b-8925-40eabab7d9ff")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fc498b-4819-4bb9-8c8a-1dc09db5173d")
+	)
+	(wire
+		(pts
 			(xy 138.43 119.38) (xy 148.59 119.38)
 		)
 		(stroke
@@ -1867,6 +1729,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 91.44) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138c40b6-ec14-4e05-a32b-53d082f2c60a")
+	)
+	(wire
+		(pts
 			(xy 199.39 99.06) (xy 199.39 105.41)
 		)
 		(stroke
@@ -1877,16 +1749,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 88.9) (xy 125.73 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20dbfa29-0c3b-41a1-ab9e-b16860ec2fe1")
-	)
-	(wire
-		(pts
 			(xy 175.26 116.84) (xy 175.26 115.57)
 		)
 		(stroke
@@ -1894,6 +1756,26 @@
 			(type default)
 		)
 		(uuid "291ce2b4-7fc8-4536-af84-786613f97730")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4f1d04-04da-4c1c-8be9-da6946f48173")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a41904-0d98-4183-a793-e3d93724fa2c")
 	)
 	(wire
 		(pts
@@ -1947,6 +1829,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a53af8-4ffd-4622-8ef5-dbcc1d41f4a3")
+	)
+	(wire
+		(pts
 			(xy 125.73 91.44) (xy 125.73 93.98)
 		)
 		(stroke
@@ -1977,13 +1869,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 91.44) (xy 125.73 91.44)
+			(xy 119.38 105.41) (xy 138.43 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "589e34fd-8b8d-4d17-9cb3-55339fff9c03")
+		(uuid "5f5a05e2-3e8c-4a78-a1a9-9c7cc6a0b3fa")
 	)
 	(wire
 		(pts
@@ -2007,6 +1899,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9e9d22-df76-4f92-9c95-d8f5af9aed2c")
+	)
+	(wire
+		(pts
+			(xy 119.38 107.95) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8000c10b-0702-42e7-8ba9-0debbfed7aca")
+	)
+	(wire
+		(pts
 			(xy 158.75 110.49) (xy 168.91 110.49)
 		)
 		(stroke
@@ -2027,6 +1939,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 107.95) (xy 119.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906890ca-a5ae-4a0c-8662-4ed721d2b8bc")
+	)
+	(wire
+		(pts
 			(xy 125.73 86.36) (xy 125.73 88.9)
 		)
 		(stroke
@@ -2034,16 +1956,6 @@
 			(type default)
 		)
 		(uuid "944f799b-3436-4d17-80c0-120658e4ad6f")
-	)
-	(wire
-		(pts
-			(xy 123.19 105.41) (xy 138.43 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4c29507-c1ff-4f3a-8c1b-e07d2b072d24")
 	)
 	(wire
 		(pts
@@ -2094,16 +2006,6 @@
 			(type default)
 		)
 		(uuid "b8aea999-9980-4fa6-abb6-6908213e8fee")
-	)
-	(wire
-		(pts
-			(xy 123.19 102.87) (xy 138.43 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbfc82e3-baea-4bb0-80f9-12b34d33e839")
 	)
 	(wire
 		(pts
@@ -2167,6 +2069,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcce2be-92a6-4cd1-bd7f-9b454d4b42c3")
+	)
+	(wire
+		(pts
 			(xy 168.91 113.03) (xy 168.91 116.84)
 		)
 		(stroke
@@ -2174,6 +2086,16 @@
 			(type default)
 		)
 		(uuid "ee32f7a1-505a-443e-90c7-c8b9c77b780b")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d3f2d0-a3df-4703-abc1-284bd9a73882")
 	)
 	(wire
 		(pts
@@ -2477,6 +2399,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 109.22 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04d6a3af-aff5-4117-82de-140c85f1334f")
+		(property "Reference" "J4"
+			(at 110.236 105.156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 106.68 106.6801 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 109.22 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "685be0fe-bd67-4cf5-873c-785d58551cdf")
+		)
+		(instances
+			(project "argus"
+				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 184.15 106.68 90)
 		(unit 1)
@@ -2628,89 +2629,6 @@
 			(project "argus"
 				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 118.11 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "143260a6-3713-4593-855e-c000ace28c30")
-		(property "Reference" "J1"
-			(at 119.38 85.852 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 115.57 91.4399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
-			(at 118.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2bc9f31-515c-4910-abdc-19894f474c64")
-		)
-		(pin "2"
-			(uuid "13560e57-bfca-4fed-ac01-9113afe23bb1")
-		)
-		(instances
-			(project "argus"
-				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2870,89 +2788,6 @@
 			(project "argus"
 				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 118.11 102.87 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "280b2d11-12fd-41bc-8b6b-29fd4e25380d")
-		(property "Reference" "J2"
-			(at 119.38 99.822 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 115.57 105.4099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
-			(at 118.11 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3be84c0c-6c02-494a-a2e0-f2d608c890b0")
-		)
-		(pin "2"
-			(uuid "cb174122-4a02-4d96-935e-a7a2a1106ed4")
-		)
-		(instances
-			(project "argus"
-				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3277,6 +3112,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 109.22 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "555580f0-a1e7-4f2b-ac84-80a42e8ceb3f")
+		(property "Reference" "J2"
+			(at 110.236 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 106.68 92.7101 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d04bc957-d99b-42ac-bac5-7849760871fc")
+		)
+		(instances
+			(project "argus"
+				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 109.22 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b3e6e8c-1987-4806-bd91-2f9d5b30e644")
+		(property "Reference" "J1"
+			(at 110.236 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 106.68 85.0901 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 109.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9329a471-b092-4570-863e-5a4ea64dd0d5")
+		)
+		(instances
+			(project "argus"
+				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 191.77 118.11 0)
 		(unit 1)
@@ -3521,7 +3514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a286f0b1-ecfb-4006-9a15-416265c6143a")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 170.434 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,7 +3537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
 			(at 171.45 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3583,7 +3576,7 @@
 		(instances
 			(project "argus"
 				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3623,7 +3616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
 			(at 204.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3748,6 +3741,85 @@
 			(project "argus"
 				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 109.22 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9e30730-5af6-4f4f-aadc-aeb90519ed33")
+		(property "Reference" "J3"
+			(at 110.236 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 106.68 99.0601 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 109.22 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30dc7e19-38ab-46a5-ae99-6321299c60ed")
+		)
+		(instances
+			(project "argus"
+				(path "/88ede172-e62b-4a6b-80f1-e187fed87fb7"
+					(reference "J3")
 					(unit 1)
 				)
 			)
