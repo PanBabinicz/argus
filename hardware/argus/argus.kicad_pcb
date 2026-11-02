@@ -2855,6 +2855,71 @@
 		(layer "Edge.Cuts")
 		(uuid "6469cca6-c603-47b5-af9e-8590f9caf971")
 	)
+	(gr_text "SWIO"
+		(at 166.88 73.2 90)
+		(layer "F.SilkS" knockout)
+		(uuid "e7891a20-5199-4110-922e-2a48d3fc1b28")
+		(effects
+			(font
+				(size 0.63 0.543)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 149.935 76.54 0)
+		(layer "F.SilkS" knockout)
+		(uuid "99906390-f9a1-4232-8266-5571834202e9")
+		(effects
+			(font
+				(size 0.63 0.63)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 149.97 74.535 0)
+		(layer "F.SilkS" knockout)
+		(uuid "64856070-d0c5-4b00-9358-61d7b5a8a162")
+		(effects
+			(font
+				(size 0.63 0.638)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D+"
+		(at 166.895 78.92 90)
+		(layer "F.SilkS" knockout)
+		(uuid "6c007154-f753-4c34-9f7b-64254a5f1ab7")
+		(effects
+			(font
+				(size 0.63 0.9985)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D-"
+		(at 166.88 76.125 90)
+		(layer "F.SilkS" knockout)
+		(uuid "0d48d09b-1d60-45d8-9147-4418edb7c6ef")
+		(effects
+			(font
+				(size 0.63 0.99875)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 157.75 73.05)
 		(end 156.9 73.05)
