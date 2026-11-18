@@ -4,12 +4,22 @@
 
 > **Argus** is a tiny keylogger built around the [CH32V003](https://www.wch-ic.com/products/CH32V003.html),
 > a low-cost 32-bit RISC-V microcontroller. It captures keystrokes and discreetly
-> stores or forwards them, all from a minimal footprint built on bare-metal firmware
+> logs them to flash, all from a minimal footprint built on bare-metal firmware
 > and a custom PCB.
 
 > [!NOTE]
 > **Please bear in mind that the workspace was primarily created for enjoyment
 > and educational endeavors.**
+
+## ✨ Features
+
+- Inline USB tap — wires into the cable's physical D+/D− lines, sitting between keyboard and host.
+- Captures keystrokes by sniffing the USB data lines and logs them to on-chip flash.
+- Runs on a bare-metal [CH32V003](https://www.wch-ic.com/products/CH32V003.html) 32-bit RISC-V MCU clocked by a 24 MHz crystal.
+- Powered straight from the USB +5 V rail — no battery needed.
+- Replays the captured keystrokes back to the user on a chosen key combination.
+- On-board button for reset.
+- Tiny two-layer PCB that hides inside a cable or connector shell.
 
 ## License
 
