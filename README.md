@@ -21,6 +21,18 @@
 - On-board button for reset.
 - Tiny two-layer PCB that hides inside a cable or connector shell.
 
+## 📂 Repository Layout
+
+```
+argus/
+├── hardware/          # KiCad project, Gerbers, and board renders
+│   ├── argus/         # Schematic, PCB layout, and fab-ready gerber/
+│   └── screenshots/   # 3D views of the board
+├── software/          # CH32V003 firmware
+├── LICENSE
+└── README.md
+```
+
 ## License
 
 Released under the [MIT License](LICENSE). Copyright (c) 2026 km1t4h.
