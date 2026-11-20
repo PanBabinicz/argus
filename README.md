@@ -21,6 +21,17 @@
 - On-board button for reset.
 - Tiny two-layer PCB that hides inside a cable or connector shell.
 
+## 🚧 Status
+
+Early work in progress — hardware first revision is done, firmware is in development.
+
+- [x] Hardware v1 — schematic, PCB layout, fab-ready Gerbers
+- [ ] Assembly — solder components onto the board
+- [ ] Firmware — USB keystroke capture
+- [ ] Logging captured keys to flash
+- [ ] Replay on key combination
+- [ ] Documentation — build & flash instructions
+
 ## 📂 Repository Layout
 
 ```
