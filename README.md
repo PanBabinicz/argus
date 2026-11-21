@@ -44,6 +44,16 @@ argus/
 └── README.md
 ```
 
+## ⚠️ Legal & Ethical Notice
+
+Argus is a keylogger built for learning about USB, embedded firmware, and PCB
+design. Using it to capture someone's keystrokes without their knowledge and
+explicit consent is illegal in most jurisdictions.
+
+- Only use it on hardware you own, or where you have clear written permission.
+- Never deploy it against other people's devices or in any unauthorized setting.
+- The author takes no responsibility for misuse or any resulting damage.
+
 ## License
 
 Released under the [MIT License](LICENSE). Copyright (c) 2026 km1t4h.
