@@ -30,6 +30,10 @@ decoupling, a reset/user button, and a handful of I/O pads.
 > Gerbers and drill files are fab-ready under [`argus/gerber/`](argus/gerber/).
 
 
+## 📐 Schematic
+
+The full schematic is available as a PDF: [`argus/schematic.pdf`](argus/schematic.pdf).
+
 ## 🛠️  PCB
 
 > This section showcases the 3D views of the PCB, generated using KiCad.
