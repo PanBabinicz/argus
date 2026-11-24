@@ -32,7 +32,9 @@ decoupling, a reset/user button, and a handful of I/O pads.
 
 ## 📐 Schematic
 
-The full schematic is available as a PDF: [`argus/schematic.pdf`](argus/schematic.pdf).
+![Schematic](https://github.com/PanBabinicz/argus/blob/master/hardware/screenshots/schematic.png)
+
+Also available as a PDF: [`argus/schematic.pdf`](argus/schematic.pdf).
 
 ## 🛠️  PCB
 
