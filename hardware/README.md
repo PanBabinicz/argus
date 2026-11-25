@@ -30,6 +30,16 @@ decoupling, a reset/user button, and a handful of I/O pads.
 > Gerbers and drill files are fab-ready under [`argus/gerber/`](argus/gerber/).
 
 
+## 🔌 Pinout
+
+| Pad | Signal | Description                              |
+|-----|--------|------------------------------------------|
+| J1  | VCC    | +5 V supply (from the USB cable)         |
+| J2  | GND    | Ground                                   |
+| J3  | D+     | USB D+ — tapped inline on the cable      |
+| J4  | D−     | USB D− — tapped inline on the cable      |
+| J5  | DBG    | Single-wire debug (SWIO) for programming |
+
 ## 📐 Schematic
 
 ![Schematic](https://github.com/PanBabinicz/argus/blob/master/hardware/screenshots/schematic.png)
