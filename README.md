@@ -40,6 +40,7 @@ argus/
 │   ├── argus/         # Schematic, PCB layout, and fab-ready gerber/
 │   └── screenshots/   # 3D views of the board
 ├── software/          # CH32V003 firmware
+├── CHANGELOG.md
 ├── LICENSE
 └── README.md
 ```
