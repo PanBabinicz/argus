@@ -55,6 +55,12 @@ explicit consent is illegal in most jurisdictions.
 - Never deploy it against other people's devices or in any unauthorized setting.
 - The author takes no responsibility for misuse or any resulting damage.
 
+## 📚 References & Acknowledgements
+
+- [CH32V003 datasheet](https://www.wch-ic.com/downloads/CH32V003DS0_PDF.html) and [reference manual](https://www.wch-ic.com/downloads/CH32V003RM_PDF.html) — WCH.
+- [CH32V003 product page](https://www.wch-ic.com/products/CH32V003.html) — WCH.
+- [Device Class Definition for HID 1.11](https://www.usb.org/hid) — USB Implementers Forum.
+
 ## License
 
 Released under the [MIT License](LICENSE). Copyright (c) 2026 km1t4h.
